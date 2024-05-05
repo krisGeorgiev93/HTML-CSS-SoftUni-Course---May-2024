@@ -1,0 +1,25 @@
+main{
+    width: 900px;
+    height: 140px;
+
+}
+
+img.align-left{
+    border:  solid #d1d1d1;
+    border-width: 0 1px 1px 0
+    ;
+    float: left;   /*текст около снимката */
+    margin: 0 1em 1em 0;
+    padding: 0 1em 1em 0;
+
+}
+
+img.align-right{
+    border:  solid #d1d1d1;
+    border-width: 0 0 1px 1px;
+    float: right;   /*текст около снимката */
+    margin: 0 0 1em 1em ;
+    padding: 0  0 1em 1em ;
+
+}
+
