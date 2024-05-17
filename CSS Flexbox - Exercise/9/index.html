@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Flexbox</title>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .card {
+            flex-direction: column;
+            background-color: #fff;
+            box-shadow: 0 0 20px 10px rgb(0, 0, 0, 0.3);
+            border-radius: 5px;
+            width: 400px;
+            height: 150px;
+        }
+        .card-content {
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+            <header><h2>Card Title</h2></header>
+            <p>
+                Some kind of description here that explains this strange behaviour of
+                the system
+            </p>
+        </div>
+    </div>
+</body>
+</html>

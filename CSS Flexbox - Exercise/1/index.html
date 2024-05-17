@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 2em;
+            background: grey;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+
+        /* All body children */
+        body > *{ 
+            background: #fff;
+            padding: 1em;
+            box-shadow: 0 0 1em 0 rgba(0,0,0,0.3);
+            border-radius: 0.3em;
+            text-transform: uppercase;
+        }
+
+        /* it can grow it cannot shrink */
+        body > header,
+        body > footer{
+            flex: 1 0 100%;
+        } 
+
+        /* grow two elements    */
+        body > main,
+        body > aside{
+            min-height: 300px;
+        }    
+
+        body > main{
+            flex: 0 1 70%;
+        }
+        
+        body > aside{
+            flex: 1 1 auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <p>Header</p>
+    </header>
+
+    <main>
+        <p>Main</p>
+    </main>
+
+    <aside>
+        <p>Aside</p>
+    </aside>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>

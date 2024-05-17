@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Layout</title>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+            padding: 5rem;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .page > h1 {
+            display: flex;
+            height: 4rem;
+            border-bottom: 3px solid black;
+            width: 100%;
+            margin-bottom: 2rem;
+            font-size: 40px;
+        }
+        h1,
+        h2,
+        blockquote {
+            font-family: Georgia, serif;
+        }
+        article h1 {
+            font-size: 30px;
+        }
+        
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        
+        .media {
+            display: flex;
+            margin: 0;
+            padding: 0.5rem 0.5rem;
+            border: 3px solid black;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+        }
+        .media img {
+            display: flex;
+            width: 10vw;
+            height: 100%;
+            object-fit: contain;
+            justify-content: end;
+            align-items: end;
+        }
+        article:last-child .media {
+            margin-right: 2rem;
+        }
+        article h1,
+        article h2 {
+            margin-bottom: 1rem;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 60vw;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 2em;
+        }
+        .aling-right {
+            float: right;
+            margin: 0 0 1em 1em;
+        }
+        .aling-left {
+            float: left;
+            margin: 0 0 1em 1em;
+        }
+        aside {
+            margin-left: 5em;
+        }
+        aside ul li {
+            margin-left: 2rem;
+        }
+        aside ul,
+        aside ul h3 {
+            margin-bottom: 1rem;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(10, 200, 40);
+        }
+        blockquote {
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            flex-direction: column;
+            max-width: 30vw;
+            float: right;
+            border-left: 3px solid rgb(0, 0, 0, 0.2);
+            margin-left: 2rem;
+            padding-left: 2rem;
+            font-style: italic;
+            color: rgb(0, 0, 0, 0.5);
+        }
+        blockquote footer {
+            padding-top: 1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>Site title</h1>
+        <section>
+            <article>
+                <h1>Heading level 1</h1>
+                <div class="media aling-right">
+                    <img src="./images/Image1.jpg" alt="" />
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    tempus lorem nibh, quis vehicula quam eleifend vel. Sed sagittis
+                    urna a commodo fermentum. Donec fringilla volutpat mi, non ultrices
+                    dolor ultrices quis. Quisque vel lectus vel dui fermentum ornare.
+                    Mauris at suscipit orci. Sed convallis eget nisl ac fermentum. Ut
+                    tincidunt dui velit, ut malesuada nulla lobortis at. Morbi in
+                    gravida nulla. Donec ut massa imperdiet, pulvinar nisi quis, auctor
+                    dolor. Curabitur sed facilisis nibh, a tincidunt lectus. Duis
+                    interdum nibh quis porttitor facilisis. In sit amet nulla sed nibh
+                    tristique iaculis eu nec metus.
+                </p>
+                <p>
+                    Aliquam hendrerit egestas orci, at sollicitudin lectus mattis eu.
+                    Nunc elementum congue sagittis. Praesent in tempus nisl. Vestibulum
+                    consequat dapibus arcu, in ornare felis gravida et. Vestibulum ut
+                    diam lacinia, sagittis leo eu, convallis felis. Maecenas sit amet
+                    ipsum lobortis, sollicitudin sem a, blandit purus. Nulla vehicula
+                    dignissim augue id sagittis. Sed pulvinar erat non fermentum
+                    elementum. Quisque volutpat, nunc id congue finibus, dui dolor
+                    efficitur nunc, ac interdum lacus lacus in enim. Nullam mattis nulla
+                    a magna efficitur, et rhoncus nulla ullamcorper. Mauris fermentum
+                    dictum massa vitae porta. Maecenas rutrum augue eu lorem fringilla
+                    fringilla. Mauris posuere luctus libero et sodales. Donec posuere
+                    pharetra efficitur.
+                </p>
+            </article>
+            <article>
+                <h2>Heading level 2</h2>
+                <p>
+                    Aliquam erat volutpat. Donec sodales malesuada purus, a gravida
+                    ipsum molestie ac. Donec ac luctus leo, eget lobortis sapien.
+                    Quisque ultricies egestas ipsum, tempor porta nulla facilisis eu.
+                    Sed fermentum viverra tortor ut lacinia. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Duis eleifend ut ligula quis lacinia. Ut sit amet est quis ipsum
+                    tristique suscipit ac sed nunc. Quisque et mi maximus, pellentesque
+                    libero eu, efficitur eros. Morbi placerat interdum nunc, sed varius
+                    sapien cursus a. Nulla eros arcu, gravida non urna sit amet,
+                    placerat ornare ligula. Sed a lacus nec quam pellentesque laoreet.
+                    Proin sit amet est vitae mi porttitor rhoncus sed nec neque.
+                    Praesent metus quam, sagittis eu mauris a, pellentesque suscipit
+                    justo. In varius tortor a ante feugiat, quis finibus magna blandit.
+                </p>
+                <blockquote>
+                    <p>
+                        Proin sit amet est vitae mi porttitor rhoncus sed nec neque.
+                        Praesent metus quam, sagittis eu mauris a, pellentesque suscipit
+                        justo. In varius tortor a ante feugiat, quis finibus magna
+                        blandit.
+                    </p>
+                    <footer>Author Name</footer>
+                </blockquote>
+                
+                <p>
+                    Phasellus dictum interdum efficitur. Maecenas eleifend sapien felis,
+                    quis interdum ex tempor a. Aenean sodales, eros ac fermentum
+                    elementum, enim nisi finibus nisi, sed tempus turpis mauris ac quam.
+                    Aenean ac leo vel ante sollicitudin consequat in ut augue.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                    posuere cubilia Curae; Duis sodales odio diam. Phasellus ultricies
+                    faucibus massa sit amet pharetra.
+                </p>
+                <p>
+                    Sed fermentum viverra tortor ut lacinia. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Duis eleifend ut ligula quis lacinia. Ut sit amet est quis ipsum
+                    tristique suscipit ac sed nunc. Quisque et mi maximus, pellentesque
+                    libero eu, efficitur eros. Morbi placerat interdum nunc, sed varius
+                    sapien cursus a. Nulla eros arcu, gravida non urna sit amet,
+                    placerat ornare ligula. Sed a lacus nec quam pellentesque laoreet.
+                    Proin sit amet est vitae mi porttitor rhoncus sed nec neque.
+                    Praesent metus quam, sagittis eu mauris a, pellentesque suscipit
+                    justo. In varius tortor a ante feugiat, quis finibus magna blandit.
+                </p>
+            </article>
+            <article>
+                <h2>Heading level 2</h2>
+                <div class="media aling-left">
+                    <img src="./images/Image2.jpg" alt="" />
+                </div>
+                <p>
+                    Ut vitae tristique magna. In hac habitasse platea dictumst. Aliquam
+                    tempor dolor in ante porta, quis convallis metus laoreet. Ut a magna
+                    mauris. Vestibulum blandit ante vitae felis gravida hendrerit. Nulla
+                    eleifend vel diam non viverra. Nullam at maximus mi. Integer luctus
+                    quis felis vitae ornare. Ut eu consequat libero.
+                </p>
+                
+                <p>
+                    Maecenas eleifend sapien felis, quis interdum ex tempor a. Aenean
+                    sodales, eros ac fermentum elementum, enim nisi finibus nisi, sed
+                    tempus turpis mauris ac quam. Aenean ac leo vel ante sollicitudin
+                    consequat in ut augue. Vestibulum ante ipsum primis in faucibus orci
+                    luctus et ultrices posuere cubilia Curae; Duis sodales odio diam.
+                    Phasellus ultricies faucibus massa sit amet pharetra.
+                </p>
+            </article>
+        </section>
+        
+        <aside>
+            <nav>
+                <ul>
+                    <h3>Categories</h3>
+                    <li><a href="#">Stuff</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Important</a></li>
+                    <li><a href="#">Dogs</a></li>
+                </ul>
+                <ul>
+                    <h3>Social</h3>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Google+ &lt; really?</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</body>
+</html>

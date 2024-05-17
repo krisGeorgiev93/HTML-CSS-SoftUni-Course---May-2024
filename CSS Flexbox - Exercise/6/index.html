@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body,
+        ul,
+        li {
+            display: flex;
+        }
+        body {
+            padding: 3rem;
+            background-color: rgb(220, 220, 220);
+        }
+        ul {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3rem;
+        }
+        
+        li {
+            border: 10px solid #000;
+            padding: 2rem 1rem;
+            background-color: #fff;
+            text-align: center;
+        }
+        li img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <ul>
+            <li><img src="./images/picture1.jpg" alt="" /></li>
+            <li><img src="./images/picture2.jpg" alt="" /></li>
+            <li><img src="./images/picture3.jpg" alt="" /></li>
+            <li><img src="./images/picture4.jpg" alt="" /></li>
+            <li><img src="./images/picture5.jpg" alt="" /></li>
+            <li><img src="./images/picture6.jpg" alt="" /></li>
+            <li><img src="./images/picture7.jpg" alt="" /></li>
+            <li><img src="./images/picture8.jpg" alt="" /></li>
+            <li><img src="./images/picture9.jpg" alt="" /></li>
+        </ul>
+    </section>
+</body>
+</html>
