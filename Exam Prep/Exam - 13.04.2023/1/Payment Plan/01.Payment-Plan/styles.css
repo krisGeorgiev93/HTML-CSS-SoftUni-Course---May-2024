@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font: 14px/1.5 Inter;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-image: url('image/background.jpg');
+    width: 100%;
+    height: 890px;
+    max-width: 1900px;
+}
+
+
+.container1,.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 560px;
+    background-color: white;
+    color: black;
+    margin-top: 10em;
+}
+.container1 h3,.container2 h3,.container3 h3{
+    font-size: 30px;
+    padding-top: 1em;;
+    padding-right: 7em;
+}
+.container1 h3{
+    padding-right: 8em;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: white;
+    color: black;
+    margin-top: 10em;
+    width: 420px;
+    height: 600px;
+    margin-top: 9em;
+}
+
+.price{
+    display: flex; 
+    align-items: center;    
+}
+.price .amount{
+    font-size: 80px;
+    font-weight: bold;
+}
+.price .currency{
+    font-size: 20px;
+    margin-top: 2em;
+}
+.price .monthly{
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.billing{
+    font-size: 15px;    
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+.statements{
+    font-size: 18px;
+    padding-left: 1.6em;
+    padding-right: 1.4em;    
+}
+.container3 .statements{
+    padding-right: 2em;
+}
+
+.statements p {
+    position: relative;
+    padding-left: 20px; /* Добавя пространство за тикчето */
+  }
+
+  .statements p::before {
+    content: '✓'; /* Символът за тикче */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px; /* Променете размера на тикчето, ако е необходимо */
+    color: rgb(0, 0, 0, ); /* Променете цвета на тикчето, ако е необходимо */
+    font-weight: bold; /* Прави тикчето по-удебелено */
+  }
+
+  .container1 .button,.container3 .button{  
+    background-color: black;
+    border-radius: 0.4em;   
+    padding: 1em 2.3em;
+    margin-left: -13em;
+    margin-top: 3em;
+    margin-right: 2em;
+}
+.button a{
+    color: white;
+    text-decoration: none; 
+}
+
+.container2 .button{
+    background-color: black;
+    border-radius: 0.4em;   
+    padding: 1em 2.3em;
+    margin-left: -13em;
+    margin-top: 5em;    
+    margin-right: 2em;    
+}
+
