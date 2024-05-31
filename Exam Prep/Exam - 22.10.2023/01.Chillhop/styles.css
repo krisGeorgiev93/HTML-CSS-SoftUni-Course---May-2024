@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 Helvetica;
+}
+
+article{
+    display: flex;
+    border: 3.2px solid black;
+    border-radius: 0.6em;
+    margin: 0 auto;
+    max-width: 850px;
+    margin-top: 2em;
+    background-color: rgb(137, 137, 206);
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+}
+header p {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.container1 h1{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0.4em;    
+}
+
+.info p{
+    font-size: 13px;
+    text-indent: 6%;
+    padding-bottom: 1em;
+    line-height: 2;
+}
+
+img{
+    max-width: 320px;
+    display: flex;
+    padding: 2em 1.5em;
+}
+
+.buttons{
+    display: flex;
+    gap: 6em;
+    margin-left: 5em;  
+    
+
+}
+
+.first{
+    border: 1px solid black;
+    border-radius: 0.4em;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 0.4em 0.7em;
+    align-content: center;
+    font-weight: bold;
+
+    
+}
+.second{
+    border: 1px solid black;
+    border-radius: 0.4em;
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0.4em 0.7em;
+    align-content: center;  
+
+}
+
+
