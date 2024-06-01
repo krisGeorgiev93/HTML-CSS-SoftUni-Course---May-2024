@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 Inter;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    background-image: url('images/background.jpg');
+    width: 100%;
+    height: 970px;
+    max-width: 1900px;
+}
+
+.flex-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 4em;
+}
+.container1, .container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;   
+    max-width: 800px;
+    height: 400px;
+    padding: 1em;
+    gap: 1em;
+}
+.container3{
+    display: flex;
+    flex-direction: column;   
+    background-color: white;
+    width: 100%;
+    max-width: 530px;
+    height: 828px;
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+img{
+    width: 200px; /* Размер на кръга */
+    height: 200px; /* Размер на кръга */
+    border-radius: 50%; /* За да направите контейнера кръгъл */
+    overflow: hidden; /* За да скриете частите на изображението извън кръга */
+    display: flex; /* За да центрирате изображението */ 
+}
+img.picture3 {
+    width: 150px; /* Специфичен размер за третата снимка */
+    height: 150px; /* Специфичен размер за третата снимка */
+    filter: grayscale(100%)
+}
+
+.container1 img, .container2 img{
+    margin-top: 6em;
+    margin-right: 3em;
+}
+
+.container1 .quotes, .container2 .quotes{
+    font-size: 150px;
+    margin-left: 0.3em;
+}
+
+.content{
+    font-size: 15px;   
+}
+
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;   
+}
+.container1 .text-flex, .container2 .text-flex{
+    margin: -4em 3em;
+}
+.container1 .author, .container2 .author{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container3 .quotes{
+    font-size: 180px;
+    padding-left: 0.2em;    
+}
+.container3 .content{
+    font-size: 18px;
+    padding-left: 3em;    
+}
+
+.container3 .author-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    margin-left: 2em;
+    margin-top: 10em;
+   border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-right: 4em;
+    padding-top: 1em;
+}
+
+.container3 .author{
+    margin-top: 4em;
+}
+
+.container3 .author p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
