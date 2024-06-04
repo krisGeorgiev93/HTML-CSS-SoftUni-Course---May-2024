@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +39,7 @@ article {
     display: block;
     color: white;
     text-decoration: none;
+    font-family: Karla;
 }
 
 .first h1 {
@@ -44,9 +48,11 @@ article {
     /* margin: 2.5em 5em; */
     padding-top: 4em;
     padding-left: 5em;
+    font-family: Cormorant Infant;
 }
 
 .first p {
+    font-family: Karla;
     color: white;
     font-size: 25px;
     margin: 4em 8em;
@@ -57,17 +63,22 @@ article {
     flex-direction: column;
     width: 1260px;
     height: 600px;
-    background-color: white;
+    background-color: #F8F0E9;
+
 }
 
 .second .small {
+    font-family: Karla;
     font-size: 18px;
     margin: 5em 20em;
 
 }
 
 .second .large {
+    font-family: Cormorant Infant;
     font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
     padding-left: 9em;
 }
 
@@ -85,10 +96,12 @@ article {
 .third h2 {
     font-size: 30px;
     padding-top: 3em;
+    font-family: Karla;
 }
 
 .third p {
     font-size: 19px;
+    font-family: Karla;
 }
 
 .fourth {
@@ -116,10 +129,12 @@ article {
 
 .fourth h1 {
     font-size: 50px;
+    font-family: Cormorant Infant;
 }
 
 .fourth p {
     font-size: 20px;
+    font-family: Karla;
 }
 
 .fourth .buttons {
@@ -127,6 +142,7 @@ article {
     flex-direction: column;
     gap: 5em;
     font-size: 20px;
+    font-family: Karla;
 }
 
 .fourth a {
@@ -134,7 +150,7 @@ article {
     background-color: white;
     text-decoration: none;
     border-radius: 0.3em;
-    width: 160px;
+    width: 180px;
     height: 40px;
     text-align: center;
     padding-top: 0.5em;
@@ -167,11 +183,13 @@ article {
 .fifth h1 {
     font-size: 50px;
     padding-top: 4em;
+    font-family: Cormorant Infant;
 }
 
 .fifth p {
     font-size: 20px;
     padding-top: 2em;
+    font-family: Karla;
 }
 
 .fifth a {
@@ -183,6 +201,8 @@ article {
     text-decoration: none;
     font-size: 17px;
     padding-top: 0.8em;
+    font-family: Karla;
+   
 }
 
 .footer {
@@ -194,6 +214,7 @@ article {
     height: 300px;
     background-color: #352B2A;
     padding: 3em 7em;
+    font-family: Karla;
 }
 
 .footer .rights {
