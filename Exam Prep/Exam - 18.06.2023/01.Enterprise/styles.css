@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-family: Inter;
+}
+
+img{
+    width: 362px;
+    height: 200px;
+}
+.circle{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+article{
+    background-color: #D9D9D9;
+    display: flex;
+    padding: 2em 3em;
+    gap: 2em;
+    justify-content: center;
+}
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: column;   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+section h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+section h2{
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+section p {
+    font-size: 13px;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    position: relative;
+    padding-bottom: 4em;
+}
+
+section h2 + p::after {
+    content: ''; 
+    display: block;
+    width: 85%; 
+    height: 2px; /* Дебелината на линията */
+    background-color: black; /* Цветът на линията */
+    position: absolute;
+    bottom: 0; 
+    left: 1.6em; 
+}
+
+.flex-container{
+    display: flex;   
+}
+
+.light-text{
+    padding-top: 4em;
+    font-size: 13px;
+    padding-right: 2.5em;
+    color: rgba(0, 0, 0, 0.3);
+}
+.name{
+    margin-right: 2em;
+    padding-top: 3.7em;
+    font-size: 14px;
+
+}
+
