@@ -1,0 +1,131 @@
+@media(max-width:600px){
+
+    .home-container {
+        flex-direction: column;
+    }
+    .home-cta-btn {
+        padding: 0.5em 0.5em;
+    }
+    .home-hero {
+        flex-direction: column-reverse;
+        
+    }
+    .home-hero img{
+        width: 100%;
+        padding-bottom: 2em;
+    }
+    .home-hero-text-container {
+        width: 100%;
+    }
+    .home-cta-btn2 {
+       width: 35%;
+       margin: 0 10em;
+    }
+
+    .home-text03 {
+        font-size: 37px;
+    }
+
+    .home-text04{
+        width: 180%;
+        font-size: 14px;
+    }
+
+    .home-cards-container {
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .home-feature-card {
+        width: 70%;
+        margin-bottom: 24px;
+      }
+      .home-feature-card1 {
+        width: 70%;
+        margin-bottom: 24px;
+      }
+      .home-feature-card2 {
+        width: 70%;
+      }
+      .home-stats {
+        padding-left: 32px;
+        padding-right: 32px;
+        grid-template-columns: 1fr 1fr;
+      }
+      .home-text11 {
+        text-align: center;
+      }
+      .home-text15 {
+        text-align: center;
+      }
+      .home-text20 {
+        text-align: center;
+      }
+      .home-text24 {
+        text-align: center;
+      }
+      .home-social-bar {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      .home-cta-btn {
+        font-size: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .home-burger-menu {
+        margin-left: 16px;
+      }
+      .home-cta-btn1 {
+        font-size: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .home-hero-text-container {
+        width: 100%;
+      }
+      .home-image1 {
+        width: 100%;
+      }
+      .home-features {
+        height: 1806px;
+        padding-top: 13px;
+        padding-bottom: 0px;
+      }
+      .home-feature-card {
+        width: 100%;
+      }
+      .home-image2 {
+        width: 403px;
+        height: 291px;
+      }
+      .home-feature-card1 {
+        width: 100%;
+      }
+      .home-image3 {
+        width: 403px;
+        height: 291px;
+      }
+      .home-feature-card2 {
+        width: 100%;
+      }
+      .home-image4 {
+        width: 403px;
+        height: 291px;
+      }
+      .home-stats {
+        padding-top: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 32px;
+        grid-template-columns: 1fr;
+      }
+      .home-social-bar {
+        padding-top: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 32px;
+      }
+    
+
+}
